@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataBound.aspx" />
+    <Content Include="LabExercise1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="DataBound.aspx.designer.cs">
       <DependentUpon>DataBound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LabExercise1.aspx.cs">
+      <DependentUpon>LabExercise1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LabExercise1.aspx.designer.cs">
+      <DependentUpon>LabExercise1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
